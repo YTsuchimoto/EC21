@@ -1,0 +1,217 @@
+Wed May 12 19:41:32 JST 2021
+Problem: BitCount{}
+seed:1620816092050 turbo:false memory:false
+Operators:
+OnePointCrossover{CROSSOVER_RATE:0.6}
+BitMutation{MUTATION_RATE:0.02}
+TournamentSelection{TOURNAMENT_SIZE:3}
+Elitism{IS_ELITISM:true}
+population size:100 chromosome length:50
+---------begin---------
+generation:1 maxFitness:33.0
+meanFitness:27.88 minFitness:22.0 entropy:33.42414820341864 genotypeNum:54 fitness evalNum:100
+generation:2 maxFitness:34.0
+meanFitness:30.36 minFitness:26.0 entropy:31.89901080656175 genotypeNum:49 fitness evalNum:200
+generation:3 maxFitness:36.0
+meanFitness:32.5 minFitness:29.0 entropy:29.905298573592976 genotypeNum:42 fitness evalNum:300
+generation:4 maxFitness:38.0
+meanFitness:34.03 minFitness:31.0 entropy:27.960651668273428 genotypeNum:51 fitness evalNum:400
+generation:5 maxFitness:38.0
+meanFitness:35.48 minFitness:32.0 entropy:25.53660677078791 genotypeNum:48 fitness evalNum:500
+generation:6 maxFitness:41.0
+meanFitness:36.68 minFitness:33.0 entropy:22.826913287527553 genotypeNum:46 fitness evalNum:600
+generation:7 maxFitness:41.0
+meanFitness:37.76 minFitness:35.0 entropy:21.425736763844313 genotypeNum:50 fitness evalNum:700
+generation:8 maxFitness:42.0
+meanFitness:38.92 minFitness:36.0 entropy:19.862372424134186 genotypeNum:46 fitness evalNum:800
+generation:9 maxFitness:44.0
+meanFitness:40.17 minFitness:36.0 entropy:17.73901882763274 genotypeNum:48 fitness evalNum:900
+generation:10 maxFitness:45.0
+meanFitness:41.21 minFitness:37.0 entropy:16.196478841965806 genotypeNum:46 fitness evalNum:1000
+generation:11 maxFitness:46.0
+meanFitness:42.71 minFitness:40.0 entropy:14.049975456939446 genotypeNum:44 fitness evalNum:1100
+generation:12 maxFitness:46.0
+meanFitness:43.24 minFitness:40.0 entropy:13.878551681299022 genotypeNum:50 fitness evalNum:1200
+generation:13 maxFitness:46.0
+meanFitness:43.67 minFitness:41.0 entropy:13.508598925559554 genotypeNum:52 fitness evalNum:1300
+generation:14 maxFitness:46.0
+meanFitness:44.34 minFitness:42.0 entropy:12.252480961655088 genotypeNum:49 fitness evalNum:1400
+generation:15 maxFitness:47.0
+meanFitness:44.82 minFitness:42.0 entropy:11.760155794387263 genotypeNum:43 fitness evalNum:1500
+generation:16 maxFitness:47.0
+meanFitness:45.15 minFitness:43.0 entropy:11.723923788389516 genotypeNum:51 fitness evalNum:1600
+generation:17 maxFitness:47.0
+meanFitness:45.61 minFitness:43.0 entropy:11.133317226321218 genotypeNum:51 fitness evalNum:1700
+generation:18 maxFitness:48.0
+meanFitness:45.91 minFitness:44.0 entropy:10.723899582393479 genotypeNum:50 fitness evalNum:1800
+generation:19 maxFitness:49.0
+meanFitness:46.11 minFitness:43.0 entropy:10.26778740525755 genotypeNum:49 fitness evalNum:1900
+generation:20 maxFitness:49.0
+meanFitness:46.69 minFitness:44.0 entropy:8.793670225893239 genotypeNum:48 fitness evalNum:2000
+generation:21 maxFitness:49.0
+meanFitness:47.09 minFitness:44.0 entropy:7.954416735567598 genotypeNum:47 fitness evalNum:2100
+generation:22 maxFitness:49.0
+meanFitness:47.48 minFitness:46.0 entropy:6.7970187311836545 genotypeNum:42 fitness evalNum:2200
+generation:23 maxFitness:49.0
+meanFitness:47.72 minFitness:46.0 entropy:5.976063267721543 genotypeNum:40 fitness evalNum:2300
+generation:24 maxFitness:49.0
+meanFitness:47.66 minFitness:46.0 entropy:6.418127208383033 genotypeNum:44 fitness evalNum:2400
+generation:25 maxFitness:49.0
+meanFitness:47.78 minFitness:46.0 entropy:5.855821336050416 genotypeNum:38 fitness evalNum:2500
+generation:26 maxFitness:50.0
+meanFitness:48.06 minFitness:46.0 entropy:5.149080238925717 genotypeNum:41 fitness evalNum:2600
+generation:27 maxFitness:50.0
+meanFitness:48.32 minFitness:47.0 entropy:4.533496958755364 genotypeNum:34 fitness evalNum:2700
+generation:28 maxFitness:50.0
+meanFitness:48.35 minFitness:47.0 entropy:5.289751043459957 genotypeNum:39 fitness evalNum:2800
+generation:29 maxFitness:50.0
+meanFitness:48.51 minFitness:47.0 entropy:4.608635585425865 genotypeNum:33 fitness evalNum:2900
+generation:30 maxFitness:50.0
+meanFitness:48.45 minFitness:47.0 entropy:5.249065368840369 genotypeNum:38 fitness evalNum:3000
+generation:31 maxFitness:50.0
+meanFitness:48.69 minFitness:46.0 entropy:4.181104950024931 genotypeNum:28 fitness evalNum:3100
+generation:32 maxFitness:50.0
+meanFitness:48.73 minFitness:47.0 entropy:4.195016360910068 genotypeNum:36 fitness evalNum:3200
+generation:33 maxFitness:50.0
+meanFitness:48.88 minFitness:47.0 entropy:3.952837428304239 genotypeNum:30 fitness evalNum:3300
+generation:34 maxFitness:50.0
+meanFitness:48.89 minFitness:47.0 entropy:4.04762617377227 genotypeNum:35 fitness evalNum:3400
+generation:35 maxFitness:50.0
+meanFitness:49.1 minFitness:47.0 entropy:3.3880265766019777 genotypeNum:28 fitness evalNum:3500
+generation:36 maxFitness:50.0
+meanFitness:49.07 minFitness:48.0 entropy:3.731241871839848 genotypeNum:31 fitness evalNum:3600
+generation:37 maxFitness:50.0
+meanFitness:48.97 minFitness:47.0 entropy:4.208331383635774 genotypeNum:35 fitness evalNum:3700
+generation:38 maxFitness:50.0
+meanFitness:48.85 minFitness:47.0 entropy:4.694841132435394 genotypeNum:38 fitness evalNum:3800
+generation:39 maxFitness:50.0
+meanFitness:49.0 minFitness:47.0 entropy:4.178864966953495 genotypeNum:35 fitness evalNum:3900
+generation:40 maxFitness:50.0
+meanFitness:48.86 minFitness:47.0 entropy:4.960123454148881 genotypeNum:41 fitness evalNum:4000
+generation:41 maxFitness:50.0
+meanFitness:48.9 minFitness:47.0 entropy:4.689812292078729 genotypeNum:41 fitness evalNum:4100
+generation:42 maxFitness:50.0
+meanFitness:49.12 minFitness:47.0 entropy:3.8849126451523626 genotypeNum:35 fitness evalNum:4200
+generation:43 maxFitness:50.0
+meanFitness:49.16 minFitness:47.0 entropy:3.611021897691776 genotypeNum:33 fitness evalNum:4300
+generation:44 maxFitness:50.0
+meanFitness:49.08 minFitness:47.0 entropy:3.925124415365655 genotypeNum:34 fitness evalNum:4400
+generation:45 maxFitness:50.0
+meanFitness:49.03 minFitness:47.0 entropy:4.072183148594802 genotypeNum:33 fitness evalNum:4500
+generation:46 maxFitness:50.0
+meanFitness:48.86 minFitness:47.0 entropy:4.710967562864897 genotypeNum:39 fitness evalNum:4600
+generation:47 maxFitness:50.0
+meanFitness:49.05 minFitness:47.0 entropy:4.050753858710311 genotypeNum:31 fitness evalNum:4700
+generation:48 maxFitness:50.0
+meanFitness:49.21 minFitness:47.0 entropy:3.5405942486945134 genotypeNum:32 fitness evalNum:4800
+generation:49 maxFitness:50.0
+meanFitness:49.14 minFitness:47.0 entropy:3.4347679789650885 genotypeNum:30 fitness evalNum:4900
+generation:50 maxFitness:50.0
+meanFitness:49.1 minFitness:47.0 entropy:3.7165508585818525 genotypeNum:34 fitness evalNum:5000
+generation:51 maxFitness:50.0
+meanFitness:49.13 minFitness:47.0 entropy:3.693075074929686 genotypeNum:31 fitness evalNum:5100
+generation:52 maxFitness:50.0
+meanFitness:49.17 minFitness:48.0 entropy:3.6315545099198223 genotypeNum:30 fitness evalNum:5200
+generation:53 maxFitness:50.0
+meanFitness:49.26 minFitness:48.0 entropy:3.2769419517000964 genotypeNum:29 fitness evalNum:5300
+generation:54 maxFitness:50.0
+meanFitness:49.33 minFitness:48.0 entropy:3.0219332158914547 genotypeNum:33 fitness evalNum:5400
+generation:55 maxFitness:50.0
+meanFitness:49.23 minFitness:48.0 entropy:3.2373189183141715 genotypeNum:31 fitness evalNum:5500
+generation:56 maxFitness:50.0
+meanFitness:49.24 minFitness:48.0 entropy:3.3149321897629864 genotypeNum:32 fitness evalNum:5600
+generation:57 maxFitness:50.0
+meanFitness:49.31 minFitness:48.0 entropy:3.0366944476256306 genotypeNum:27 fitness evalNum:5700
+generation:58 maxFitness:50.0
+meanFitness:49.2 minFitness:48.0 entropy:3.421400486914127 genotypeNum:32 fitness evalNum:5800
+generation:59 maxFitness:50.0
+meanFitness:49.24 minFitness:47.0 entropy:3.4287577820551407 genotypeNum:28 fitness evalNum:5900
+generation:60 maxFitness:50.0
+meanFitness:49.29 minFitness:47.0 entropy:3.1331524589521402 genotypeNum:28 fitness evalNum:6000
+generation:61 maxFitness:50.0
+meanFitness:49.26 minFitness:48.0 entropy:3.3038607020988255 genotypeNum:33 fitness evalNum:6100
+generation:62 maxFitness:50.0
+meanFitness:49.07 minFitness:47.0 entropy:3.853674851988724 genotypeNum:33 fitness evalNum:6200
+generation:63 maxFitness:50.0
+meanFitness:49.01 minFitness:46.0 entropy:3.97946582212447 genotypeNum:35 fitness evalNum:6300
+generation:64 maxFitness:50.0
+meanFitness:49.07 minFitness:47.0 entropy:3.770515407045158 genotypeNum:32 fitness evalNum:6400
+generation:65 maxFitness:50.0
+meanFitness:48.99 minFitness:47.0 entropy:4.129722048782825 genotypeNum:34 fitness evalNum:6500
+generation:66 maxFitness:50.0
+meanFitness:49.25 minFitness:48.0 entropy:3.3659278547875164 genotypeNum:30 fitness evalNum:6600
+generation:67 maxFitness:50.0
+meanFitness:49.22 minFitness:47.0 entropy:3.519476966678986 genotypeNum:34 fitness evalNum:6700
+generation:68 maxFitness:50.0
+meanFitness:49.22 minFitness:48.0 entropy:3.5130195874554895 genotypeNum:34 fitness evalNum:6800
+generation:69 maxFitness:50.0
+meanFitness:49.37 minFitness:48.0 entropy:2.7099984912417288 genotypeNum:26 fitness evalNum:6900
+generation:70 maxFitness:50.0
+meanFitness:49.24 minFitness:48.0 entropy:3.328698119791868 genotypeNum:30 fitness evalNum:7000
+generation:71 maxFitness:50.0
+meanFitness:49.31 minFitness:48.0 entropy:3.0236738092867945 genotypeNum:26 fitness evalNum:7100
+generation:72 maxFitness:50.0
+meanFitness:49.22 minFitness:48.0 entropy:3.3901132601816677 genotypeNum:34 fitness evalNum:7200
+generation:73 maxFitness:50.0
+meanFitness:49.32 minFitness:47.0 entropy:3.019595034860669 genotypeNum:25 fitness evalNum:7300
+generation:74 maxFitness:50.0
+meanFitness:49.29 minFitness:48.0 entropy:3.096780146169708 genotypeNum:25 fitness evalNum:7400
+generation:75 maxFitness:50.0
+meanFitness:49.21 minFitness:48.0 entropy:3.5531178880309264 genotypeNum:37 fitness evalNum:7500
+generation:76 maxFitness:50.0
+meanFitness:49.08 minFitness:47.0 entropy:3.9739474824864827 genotypeNum:31 fitness evalNum:7600
+generation:77 maxFitness:50.0
+meanFitness:49.06 minFitness:47.0 entropy:4.134732736169373 genotypeNum:36 fitness evalNum:7700
+generation:78 maxFitness:50.0
+meanFitness:49.31 minFitness:47.0 entropy:3.036890002010156 genotypeNum:27 fitness evalNum:7800
+generation:79 maxFitness:50.0
+meanFitness:49.35 minFitness:47.0 entropy:2.9302200110761802 genotypeNum:28 fitness evalNum:7900
+generation:80 maxFitness:50.0
+meanFitness:49.45 minFitness:48.0 entropy:2.607573972451317 genotypeNum:27 fitness evalNum:8000
+generation:81 maxFitness:50.0
+meanFitness:49.47 minFitness:47.0 entropy:2.4700871342127817 genotypeNum:27 fitness evalNum:8100
+generation:82 maxFitness:50.0
+meanFitness:49.35 minFitness:47.0 entropy:3.00093756178462 genotypeNum:33 fitness evalNum:8200
+generation:83 maxFitness:50.0
+meanFitness:49.42 minFitness:47.0 entropy:2.733533357214868 genotypeNum:24 fitness evalNum:8300
+generation:84 maxFitness:50.0
+meanFitness:49.45 minFitness:48.0 entropy:2.4946383029002215 genotypeNum:23 fitness evalNum:8400
+generation:85 maxFitness:50.0
+meanFitness:49.59 minFitness:47.0 entropy:1.972439981084288 genotypeNum:21 fitness evalNum:8500
+generation:86 maxFitness:50.0
+meanFitness:49.47 minFitness:47.0 entropy:2.4656761323765446 genotypeNum:24 fitness evalNum:8600
+generation:87 maxFitness:50.0
+meanFitness:49.41 minFitness:47.0 entropy:2.701012479081921 genotypeNum:30 fitness evalNum:8700
+generation:88 maxFitness:50.0
+meanFitness:49.46 minFitness:47.0 entropy:2.509340992015286 genotypeNum:25 fitness evalNum:8800
+generation:89 maxFitness:50.0
+meanFitness:49.4 minFitness:48.0 entropy:2.555704957802738 genotypeNum:23 fitness evalNum:8900
+generation:90 maxFitness:50.0
+meanFitness:49.29 minFitness:47.0 entropy:3.2086789721136695 genotypeNum:28 fitness evalNum:9000
+generation:91 maxFitness:50.0
+meanFitness:49.46 minFitness:47.0 entropy:2.3773938691442114 genotypeNum:22 fitness evalNum:9100
+generation:92 maxFitness:50.0
+meanFitness:49.58 minFitness:48.0 entropy:1.9380859054845887 genotypeNum:21 fitness evalNum:9200
+generation:93 maxFitness:50.0
+meanFitness:49.36 minFitness:47.0 entropy:2.8317913875767022 genotypeNum:31 fitness evalNum:9300
+generation:94 maxFitness:50.0
+meanFitness:49.36 minFitness:47.0 entropy:2.8216299802260405 genotypeNum:26 fitness evalNum:9400
+generation:95 maxFitness:50.0
+meanFitness:49.39 minFitness:48.0 entropy:2.7190484560025023 genotypeNum:26 fitness evalNum:9500
+generation:96 maxFitness:50.0
+meanFitness:49.39 minFitness:47.0 entropy:2.8190419286221946 genotypeNum:30 fitness evalNum:9600
+generation:97 maxFitness:50.0
+meanFitness:49.29 minFitness:48.0 entropy:3.255879145417781 genotypeNum:32 fitness evalNum:9700
+generation:98 maxFitness:50.0
+meanFitness:49.09 minFitness:47.0 entropy:3.724118315929295 genotypeNum:33 fitness evalNum:9800
+generation:99 maxFitness:50.0
+meanFitness:49.05 minFitness:47.0 entropy:3.7481038964474935 genotypeNum:30 fitness evalNum:9900
+generation:100 maxFitness:50.0
+meanFitness:49.04 minFitness:47.0 entropy:4.02773430410792 genotypeNum:33 fitness evalNum:10000
+----------end----------
+Wed May 12 19:41:32 JST 2021
+Total fitness evaluation:10000
+----elite----
+elite fitness: 50.0
+11111111111111111111111111111111111111111111111111
+-------------
