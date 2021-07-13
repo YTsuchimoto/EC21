@@ -77,7 +77,7 @@ def main():
     CXPB, MUTPB = 0.5, 0.2
 
     #mutate_crossを起こす確率
-    MCPB = -1
+    MCPB = 0.5
 
     print("Start of evolution")
 
