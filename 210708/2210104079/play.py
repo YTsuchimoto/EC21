@@ -38,6 +38,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 
 
 def main():
+    random.seed(100)
     pop = toolbox.population(n=300)  # Creating the Population
 
     # Evaluate the entire population
