@@ -33,8 +33,11 @@ def newOperator(ind, indpb):
 
 toolbox.register("evaluate", evalOneMax)
 toolbox.register("mate", tools.cxTwoPoint)
+
+mutate_probability = 0.05
+# old operator
+# toolbox.register("mutate", tools.mutFlipBit, indpb=mutate_probability)
 # add new operator
-mutate_probability = 0.10
 toolbox.register("mutate", newOperator, indpb=mutate_probability)
 toolbox.register("select", tools.selTournament, tournsize=3)
 
