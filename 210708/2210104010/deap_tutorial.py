@@ -1,11 +1,14 @@
 from deap import base, creator, tools
 import random
+import math
+from objproxies import CallbackProxy
 
 creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
 creator.create("Individual", list, fitness=creator.FitnessMin)
 
 
 IND_SIZE = 10
+N_GENS = 1
 
 toolbox = base.Toolbox()
 toolbox.register("attribute", random.random)
@@ -17,11 +20,12 @@ def evaluate(individual):
     return sum(individual),
 
 toolbox.register("mate", tools.cxTwoPoint)
-toolbox.register("mutate", tools.mutGaussian, mu=0, sigma=1, indpb=0.1)
+toolbox.register("mutate", tools.mutGaussian, mu=0, sigma=1, indpb = CallbackProxy(lambda: 2.0 / N_GENS))
 toolbox.register("select", tools.selTournament, tournsize=3)
 toolbox.register("evaluate", evaluate)
 
 def main():
+    global N_GENS
     pop = toolbox.population(n=50)
     CXPB, MUTPB, NGEN = 0.5, 0.2, 40
 
@@ -57,12 +61,13 @@ def main():
         # The population is entirely replaced by the offspring
         pop[:] = offspring
         print(g+1, "世代目")
-        eval_max =0
+        eval_max =math.inf
         for one in offspring:
-            if sum(one) > eval_max:
+            if sum(one) < eval_max:
                 elete = one
         print("和：",sum(elete))
-        print("個体：",elete)
+        print("最良の個体：",elete)
+        N_GENS+=1
     return pop
 
 
