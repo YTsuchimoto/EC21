@@ -9,15 +9,21 @@
 * 既存の操作のみ
 
 -- Generation 99 --
+
   Evaluated 188 individuals
+  
   Min 89.0
+  
   Max 100.0
+  
   Avg 98.92
+  
   Std 2.3281466162306157
   
 * 提案操作を導入
 
 -- Generation 99 --
+
   Evaluated 191 individuals
   Min 91.0
   Max 100.0
