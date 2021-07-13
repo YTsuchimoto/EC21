@@ -15,5 +15,5 @@ Where _g'_ is the obtained mutation, and _GN_ a value sampled from a Normal dist
 
 ## Results
 
-The algorithm converges rappidly to a solution close to 100.0.
+The algorithm converges rapidly to a solution close to 100.0.
 
