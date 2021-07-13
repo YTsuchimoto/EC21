@@ -6,7 +6,7 @@
 
 提案操作を導入したものと既存の操作のみのものとの，プログラムの最終実行結果の比較を以下に示す．
 
-#既存の操作のみ
+* 既存の操作のみ
 
 -- Generation 99 --
   Evaluated 188 individuals
@@ -15,7 +15,7 @@
   Avg 98.92
   Std 2.3281466162306157
   
-#提案操作を導入
+* 提案操作を導入
 
 -- Generation 99 --
   Evaluated 191 individuals
