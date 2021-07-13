@@ -20,8 +20,10 @@ def evalOneMax(individual):
 
 
 def newOperator(ind, indpb):
+    level = 1
     for i in range(len(ind)):
-        if random.random() < indpb:
+        if random.random() < indpb / level:
+            level += 1
             if ind[i] == 0:
                 ind[i] = 1
             else:
