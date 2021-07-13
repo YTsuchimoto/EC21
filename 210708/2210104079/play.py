@@ -19,9 +19,21 @@ def evalOneMax(individual):
     return sum(individual),
 
 
+def newOperator(ind, indpb):
+    for i in range(len(ind)):
+        if random.random() < indpb:
+            if ind[i] == 0:
+                ind[i] = 1
+            else:
+                ind[i] = 0
+    return ind,
+
+
 toolbox.register("evaluate", evalOneMax)
 toolbox.register("mate", tools.cxTwoPoint)
-toolbox.register("mutate", tools.mutFlipBit, indpb=0.05)
+# add new operator
+mutate_probability = 0.10
+toolbox.register("mutate", newOperator, indpb=mutate_probability)
 toolbox.register("select", tools.selTournament, tournsize=3)
 
 
@@ -88,6 +100,9 @@ def main():
         print("  Max %s" % max(fits))
         print("  Avg %s" % mean)
         print("  Std %s" % std)
+
+    best_ind = tools.selBest(pop, 1)[0]
+    print("Best individual is %s, %s" % (best_ind, best_ind.fitness.values))
 
 
 if __name__ == "__main__":
