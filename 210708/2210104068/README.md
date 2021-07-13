@@ -9,7 +9,7 @@ The optimal solution to the problem is 100.0.
 
 If a gene _g_ gets mutated with this operator, we have :
 
-_g'_ = _g_ + (1 + _GN_)
+_g'_ = _g_ * (1 + _GN_)
 
 Where _g'_ is the obtained mutation, and _GN_ a value sampled from a Normal distribution, bounded by the interval [-GN_POW, GN_POW], GN_POW<1.
 
