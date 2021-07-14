@@ -90,5 +90,5 @@ if __name__ == '__main__':
     plt.xlabel('# of evaluations')
     plt.ylabel('fitness')
     plt.legend()
-    plt.show()
     plt.savefig('result.png')
+    plt.show()
