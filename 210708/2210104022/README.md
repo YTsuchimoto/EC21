@@ -31,4 +31,4 @@ SPXの挙動はこんな感じ :
 Takahide Higuchi, Shigeyoshi Tsutsui, Masayuki Yamamura,
 Simplex Crossover for Real-coded Genetic Algolithms,
 Transactions of the Japanese Society for Artificial Intelligence,
-2001, Volume 16, Issue 1, Pages 147-155, Released February 28, 2002
+2001, Volume 16, Issue 1, Pages 147-155, Released February 28, 2002.
