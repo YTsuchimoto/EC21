@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun  1 21:38:56 2021
+
+@author: msysstu035
+"""
+
+import sympy
+
+from sympy import sin, cos
+
+x = sympy.Symbol('x')
+y = sympy.Symbol('y')
+w = sympy.Symbol("w")
+
+print(type(x))
+
+
+s = 1/2*((5*sin(w*x)-2)*(10*cos(2*w*x))-(10*sin(2*w*x))*(5*cos(w*x)))
+print("面積を求める式は下の式です。")
+print(s)
+#print(sympy.expand(s))
+
+s_expand = sympy.expand(s)
+
+#print(s_expand)
+
+#print(sympy.diff(s_expand,x))
+
+sb = sympy.diff(s_expand,x)
+
+print(" ")
+#print(sb)
+
+
+#print(" ")
+#print(sympy.solve(sb,x))
+a = []
+a = sympy.solve(sb,x)
+
+b = 0
+c = 0
+
+for i in range(0,len(a)):
+    if s.subs(x,a[i]) > b:
+        b = s.subs(x,a[i])
+        c = a[i]
+        
+#print(a)
+print("面積の最大値は")
+print(s.subs(x, c))
+print("です")
+
